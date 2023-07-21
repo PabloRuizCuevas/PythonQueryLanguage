@@ -1,6 +1,6 @@
 from __future__ import annotations
 from sqlalchemy import create_engine
-from IPython.display import display
+#from IPython.display import display
 import pandas as pd
 import numpy as np
 import difflib
@@ -474,7 +474,8 @@ class SQLManager:
         if ask_usr:
             print("--Select/Insert/update: " + table_name)
             if _display:
-                display(table)
+                print(table)
+		#display(table)
             confirmation = input("Are you sure you want to perform this operation?")
             if confirmation in ["yes", 'y', 'YES', 'Yes']:
                 print("Operation accepted")
