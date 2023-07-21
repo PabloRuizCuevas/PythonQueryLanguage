@@ -10,7 +10,7 @@ readme = "readme.md"
 python = "^3.8"
 SQLAlchemy = "^1.4.31"
 numpy = "^1.22.2"
-pandas = "^1.4.1"
+pandas = "*"
 ipython = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
